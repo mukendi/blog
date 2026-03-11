@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About — Simon Ngoy</title>
+<title>About - Simon Ngoy</title>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=JetBrains+Mono:wght@300;400;500;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 <style>
 
@@ -347,7 +347,7 @@
     <div class="profile-avatar">SN</div>
     <div class="profile-info">
       <h1>Simon Ngoy</h1>
-      <div class="profile-role">Security Researcher — Red Team / Windows Internals</div>
+      <div class="profile-role">Security Researcher / Red Team / Windows Internals</div>
       <div class="profile-links">
         <a class="profile-link" href="https://github.com/mukendi" target="_blank">
           <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
@@ -369,9 +369,9 @@
     <div class="section-title">About</div>
 
     <p>
-      I'm a security researcher focused on <strong>Windows internals</strong>, <strong>kernel exploitation, </strong><strong>Hypervisor</strong>,
+      I'm a security researcher focused on <strong>Windows internals</strong>, <strong>kernel exploitation, </strong>
       and <strong>Red Team operations</strong>. My work sits at the intersection of low-level systems research
-      and offensive security — understanding how Windows works at its core to find and exploit the gaps.
+      and offensive security, understanding how Windows works at its core to find and exploit the gaps.
     </p>
   </div>
 
@@ -399,26 +399,6 @@
           <li>IRQL, IDT, GDT</li>
           <li>SSDT &amp; syscall internals</li>
           <li>PatchGuard &amp; KPP</li>
-        </ul>
-      </div>
-      <div class="skill-card">
-        <div class="skill-card-title">Debugging &amp; Analysis</div>
-        <ul class="skill-list">
-          <li>WinDbg (kernel &amp; user mode)</li>
-          <li>Hardware breakpoints</li>
-          <li>Crash dump analysis</li>
-          <li>dx / LINQ scripting</li>
-          <li>Live kernel debugging</li>
-        </ul>
-      </div>
-      <div class="skill-card">
-        <div class="skill-card-title">Reverse Engineering</div>
-        <ul class="skill-list">
-          <li>IDA Pro — flow graph analysis</li>
-          <li>Ghidra — decompilation</li>
-          <li>Driver binary analysis</li>
-          <li>IOCTL enumeration</li>
-          <li>x64 disassembly</li>
         </ul>
       </div>
     </div>
@@ -453,9 +433,16 @@
     <ul class="timeline">
       <li>
         <div class="tl-dot"></div>
+          <div class="tl-content">
+          <div class="tl-date">2026</div>
+          <div class="tl-title">Module Overloading Bypassing EDR/AV via Trust Inheritance</div>
+          <div class="tl-desc">
+            <code>Module Overloading</code> illustrates a fundamental trend in modern offensive security: the most effective techniques are not those that try to hide, but those that exploit the design assumptions of defenses
+          </div>
+        </div>
         <div class="tl-content">
           <div class="tl-date">2023</div>
-          <div class="tl-title">CVE-2021-21551 — Dell Driver Exploitation</div>
+          <div class="tl-title">CVE-2021-21551 : Dell Driver Exploitation</div>
           <div class="tl-desc">
             Full analysis and exploitation of <code>dbutil_2_3.sys</code>. Developed arbitrary
             read/write primitives via unvalidated <code>memmove</code> IOCTLs, leading to SYSTEM
@@ -467,24 +454,14 @@
         <div class="tl-dot grey"></div>
         <div class="tl-content">
           <div class="tl-date">Upcoming</div>
-          <div class="tl-title">WinDbg Advanced Series — 12 Articles</div>
+          <div class="tl-title">WinDbg Advanced Series  12 Articles</div>
           <div class="tl-desc">
             A complete series on Windows kernel debugging: memory layout, process internals,
             breakpoints, scripting with <code>dx</code> / LINQ, and real-world case studies.
           </div>
         </div>
       </li>
-      <li>
-        <div class="tl-dot grey"></div>
-        <div class="tl-content">
-          <div class="tl-date">Upcoming</div>
-          <div class="tl-title">PatchGuard Internals &amp; Bypass Research</div>
-          <div class="tl-desc">
-            Deep dive into Kernel Patch Protection — how it works, where it monitors, and
-            the techniques used to operate below its radar.
-          </div>
-        </div>
-      </li>
+
     </ul>
   </div>
 
@@ -494,7 +471,7 @@
   <div class="about-section">
     <div class="section-title">Contact</div>
     <p>
-      For research collaborations, responsible disclosure, or general questions — reach out via
+      For research collaborations, responsible disclosure, or general questions, reach out via
       <a href="mailto:contact@simonngoy.com">email</a> or
       <a href="https://linkedin.com/" target="_blank">LinkedIn</a>.
       I'm always interested in discussing Windows internals, kernel exploitation research,
@@ -509,7 +486,7 @@
 </div>
 
 <footer class="site-footer">
-  Simon Ngoy &mdash; Security Researcher &mdash; Red Team / Windows Internals
+  Simon Ngoy : Security Researcher / Red Team / Windows Internals
 </footer>
 
 </body>

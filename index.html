@@ -325,7 +325,7 @@
 
   <!-- Hero -->
   <div class="hero">
-    <div class="hero-label">// Security Research Blog</div>
+    <div class="hero-label">Security Research Blog</div>
     <h1>Windows Internals,<br>Kernel Exploitation &amp; Red Team</h1>
     <p>
       In-depth research on Windows kernel debugging, driver exploitation, and offensive
@@ -335,8 +335,6 @@
     <div class="hero-tags">
       <span class="hero-tag">Windows Kernel</span>
       <span class="hero-tag">WinDbg</span>
-      <span class="hero-tag">Kernel Exploitation</span>
-      <span class="hero-tag">BYOVD</span>
       <span class="hero-tag">Red Team</span>
       <span class="hero-tag">Reverse Engineering</span>
     </div>
@@ -346,9 +344,22 @@
   <div class="posts-section">
     <div class="section-title">Published Articles</div>
 
-    <a class="post-item" href="blog-cve-2021-21551-secretclub.html">
+    <a class="post-item" href="./blog-module-overloading.html">
       <div>
-        <div class="post-title">Exploit a Vulnerable Windows Driver — CVE-2021-21551</div>
+        <div class="post-title">Module Overloading : Bypassing EDR/XDR via Trust Inheritance</div>
+        <div class="post-meta">
+          <span class="post-author">Simon Ngoy</span>
+          <span class="post-tag">EDR</span>
+          <span class="post-tag">AV</span>
+          <span class="post-tag blue">BYPASS</span>
+          <span class="post-tag green">MODULE Overloading</span>
+        </div>
+      </div>
+      <div class="post-date">2026</div>
+    </a>
+        <a class="post-item" href="blog-cve-2021-21551-secretclub.html">
+      <div>
+        <div class="post-title">Exploit a Vulnerable Windows Driver: CVE-2021-21551</div>
         <div class="post-meta">
           <span class="post-author">Simon Ngoy</span>
           <span class="post-tag">CVE</span>
@@ -366,7 +377,7 @@
   <!-- WinDbg Series -->
   <div class="series-block">
     <div class="section-title">Upcoming Series</div>
-    <div class="series-title">Windows Debugging with WinDbg — Advanced Level</div>
+    <div class="series-title">Windows Debugging with WinDbg : Advanced Level</div>
     <div class="series-desc">
       A complete series covering Windows Kernel Fundamentals, core debugging commands,
       scripting, and real-world case studies. Each article builds on the previous.
@@ -375,51 +386,31 @@
     <ul class="series-items">
 
       <li>
-        <span class="soon">Memory Layout — User vs Kernel space, VAD, PTE, PFN Database</span>
+        <span class="soon">Memory Layout : User vs Kernel space, VAD, PTE, PFN Database</span>
         <span class="series-badge draft">Soon</span>
       </li>
       <li>
-        <span class="soon">Processor Initialization — IRQL, IDT, GDT, Processor structures</span>
+        <span class="soon">Processor Initialization : IRQL, IDT, GDT, Processor structures</span>
         <span class="series-badge draft">Soon</span>
       </li>
       <li>
-        <span class="soon">Process &amp; Thread — EPROCESS, ETHREAD, TEB, PEB, Scheduling</span>
+        <span class="soon">Process &amp; Thread : EPROCESS, ETHREAD, TEB, PEB, Scheduling</span>
         <span class="series-badge draft">Soon</span>
       </li>
       <li>
-        <span class="soon">Setup &amp; Workspace — Local, Remote, Kernel Debugging</span>
+        <span class="soon">Evaluating Expressions : MASM vs C++, Operators, Pseudo-registers</span>
         <span class="series-badge draft">Soon</span>
       </li>
       <li>
-        <span class="soon">Evaluating Expressions — MASM vs C++, Operators, Pseudo-registers</span>
+        <span class="soon">Breakpoints  bp, bu, bm, ba : Hardware vs Software</span>
         <span class="series-badge draft">Soon</span>
       </li>
       <li>
-        <span class="soon">Registers — Context Switching, Calling Conventions x64</span>
+        <span class="soon">Scripting : dx, LINQ, .foreach, JavaScript Engine</span>
         <span class="series-badge draft">Soon</span>
       </li>
       <li>
-        <span class="soon">Process Control — .process, g, p, t, wt, gu…</span>
-        <span class="series-badge draft">Soon</span>
-      </li>
-      <li>
-        <span class="soon">Memory Commands — d*, e*, s, !address, !vprot</span>
-        <span class="series-badge draft">Soon</span>
-      </li>
-      <li>
-        <span class="soon">Breakpoints — bp, bu, bm, ba — Hardware vs Software</span>
-        <span class="series-badge draft">Soon</span>
-      </li>
-      <li>
-        <span class="soon">Miscellaneous Commands — !analyze, .logopen, .dump…</span>
-        <span class="series-badge draft">Soon</span>
-      </li>
-      <li>
-        <span class="soon">Scripting — dx, LINQ, .foreach, JavaScript Engine</span>
-        <span class="series-badge draft">Soon</span>
-      </li>
-      <li>
-        <span class="soon">Case Studies — Crash dumps, Rootkits, Memory Corruption</span>
+        <span class="soon">Case Studies : Crash dumps, Rootkits, Memory Corruption</span>
         <span class="series-badge draft">Soon</span>
       </li>
     </ul>
@@ -428,7 +419,7 @@
 </div>
 
 <footer class="site-footer">
-  Simon Ngoy &mdash; Security Researcher &mdash; Red Team / Windows Internals
+  Simon Ngoy : Security Researcher /  Red Team / Windows Internals
 </footer>
 
 </body>
